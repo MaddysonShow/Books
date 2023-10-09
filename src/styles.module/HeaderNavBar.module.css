@@ -1,0 +1,102 @@
+.header {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: no-repeat;
+    background-color: whitesmoke;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.SFB {
+    color: white;
+    font-size: 4em;
+    padding-bottom: 10px;
+}
+
+.inputGroup {
+    position: relative;
+    display: inline-block;
+    width: 40vw;
+    margin-bottom: 10px;
+}
+
+.inputs {
+    width: 100%;
+    height: 30px;
+    border: darksalmon 3px solid;
+}
+
+.inputGroupImg {
+    position: absolute;
+    right:0;
+    top: 20%;
+    width: 1.4em;
+    cursor: pointer;
+}
+
+.sortGroup {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.sortText {
+    color: white;
+    padding: 5px;
+}
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 1000px){
+
+    .SFB {
+        margin-top: 1em;
+        color: white;
+        font-size: 3em;
+        padding-bottom: 10px;
+    }
+    .sortText {
+        color: white;
+        padding: 5px;
+        font-size: 2em;
+    }
+    .header {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .inputGroup {
+        position: relative;
+        display: inline-block;
+        width: 70vw;
+        height: 90px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .inputs {
+        width: 100%;
+        height: 100%;
+        border: darksalmon 3px solid;
+        font-size: 2em;
+    }
+
+    .inputGroupImg {
+        position: absolute;
+        right:0;
+        top: 12%;
+        width: 2em;
+    }
+}
